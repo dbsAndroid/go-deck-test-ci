@@ -6,4 +6,4 @@ before_install:
   - docker build -t go-deck .
 
 script:
-  - docker run go-deck
+  - docker run go-deck go test ./main
